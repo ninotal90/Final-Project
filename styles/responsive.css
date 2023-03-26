@@ -1,0 +1,157 @@
+/* First Main page responsive */
+@media (max-width:1200px) and (min-width:950px) {
+    .pizza-image img {
+        width: 80%;
+    }
+}
+@media (max-width:949px) and (min-width:769px) {
+    .pizza-image img {
+        width: 80%;
+    }
+    .title-text h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .title-text h3 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .title-text h4 {
+        font-size: 35px;
+        line-height: 50px;
+    } 
+}
+@media (max-width:768px) and (min-width:601px) {
+    .pizza-image img {
+        width: 80%;
+    }.title-text h2 {
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 3px;
+    }
+    .title-text h3 {
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 3px;
+    }
+    .title-text h4 {
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 3px;
+    }
+}
+@media (max-width:600px) {
+    .first-section-wraper {
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+    .ul-nav {
+        flex-direction: column;
+    }
+    .navigation {
+        display: none;
+    }
+    .navigation.activeNav {
+        display: block;
+    }
+    .pizza-image {
+        max-width: 250px;
+        margin-bottom: 50px;
+    }
+    .pizza-image img {
+        width: 90%;
+    }
+    .nav-div{
+        display: none;
+    }
+    .buttonl {
+        display: none;
+    }
+    .burger {
+       display: block;
+   
+    }
+    .title-text h2 {
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 3px;
+    }
+    .title-text h3 {
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 3px;
+    }
+    .title-text h4 {
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 3px;
+    }
+    .pizza-image img {
+        width: 84%;
+    }
+    .main-footer {
+        flex-direction: column-reverse;
+    }
+}
+/* Menu page responsive */
+@media (max-width:1010px) {
+    .right-div-box {
+        flex-direction: row-reverse;
+    }
+    .second-div-text {
+        flex-wrap: wrap;
+    }
+    .pepperoni img {
+        width: 80%;
+    }
+}
+@media (max-width:700px) {
+    .first-conteiner-section {
+        flex-direction: column;
+        align-items: center;
+    }
+       
+    .right-div-box {
+        flex-direction: row-reverse;
+    }
+    .second-div-text {
+        flex-wrap: wrap;
+    }
+    .pepperoni img {
+        width: 80%;
+    }
+}
+/* Special Offers page Responsive */
+@media (max-width:500px) {
+    .offers-box {
+        width: 98%;
+    }
+    .offers-box p {
+        font-size: 25px;
+        
+    }
+    .offers-box span {
+        font-size: 35px;
+    }
+}
+@media (max-width:400px) {
+    .offers-box p {
+        font-size: 20px;
+        
+    }
+    .offers-box span {
+        font-size: 30px;
+    }
+}
+/* Contact Page Responsive */
+@media (max-width:700px) {
+    .contact-section {
+        flex-direction: column-reverse;
+    }
+    .left-block-contact {
+        width: 96%;
+    }
+    .right-block-contact {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,543 @@
+/* HTML Page Main */
+.main-conteiner {
+    background-image: url(../images/about.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.header-wraper {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #242424;
+    align-items: center;
+    margin-bottom: 60px;
+    position: relative;
+  }
+  .logo-size{
+      font-size: 50px;
+      line-height:70px ;
+      font-weight: 900;
+      font-style: italic;
+      color: #E83A30;
+      font-family: 'Delicious Handrawn';
+  }
+  .buttonl {
+      max-width: 130px;
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #E83A30;
+      color: #E8B730;
+      font-size: 18px;
+      border: 1px solid black;
+      border-radius: 5px;
+  }
+  .burger {
+      position: absolute;
+      top:20px;
+      right: 20px;
+      color: #C79816;
+      font-size: 30px;
+      display: none;
+  }
+  .ul-nav {
+      max-width: 700px;
+      width: 100%;
+      height: 60px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-radius: 5px;
+  }
+  .navigation {
+      max-width: 700px;
+      width: 100%;
+      height: 60px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-radius: 5px;
+  }
+  
+  li a {
+      font-size: 20px;
+      font-weight: 700;
+      color: #E8B730;
+      transition: 0.2s ;
+      font-family: 'BPG Nino Mkhedruli Bold';
+  }
+  /* first section wraper */
+.first-section-wraper {
+    display: flex;
+    max-width: 1120px;
+    width: 98%;
+    height: 500px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 53px;
+}
+.title-text {
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+.title-text h2 {
+    font-size:40px ;
+    font-weight: 700;
+    font-style: italic;
+    color:#C79816 ;
+    letter-spacing: 7px;
+    animation:backInLeft 2.2s  linear;
+    background-color: #242424;
+    opacity: 90%;
+    border-radius: 5px;
+    font-family: 'BPG Irubaqidze';
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.title-text h3 {
+    font-size:40px ;
+    font-style: italic;
+    font-weight: 700;
+    color:#C79816 ;
+    letter-spacing: 7px;
+    animation:backInLeft 2.5s  linear;
+    background-color: #242424;
+    opacity: 90%;
+    font-family: 'BPG Irubaqidze';
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.title-text h4 {
+    font-size:40px ;
+    font-style: italic;
+    font-weight: 700;
+    color:#C79816 ;
+    letter-spacing: 7px;
+    animation:backInLeft 2.8s  linear;
+    background-color: #242424;
+    opacity: 90%;
+    font-family: 'BPG Irubaqidze';
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h3 span {
+    color: red;
+}
+.pizza-image {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+.pizza-image img {
+    width: 90%;
+    animation:rotateIn 1.5s linear;
+}
+/* footer */
+.main-footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #242424;
+}
+.copy h2 {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    line-height: 30px;
+    color: #E8B730;
+}
+.icons-div {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-facebook-f {
+    font-size: 20px;
+    color:#C79816 ;
+}
+.fa-instagram {
+    font-size: 20px;
+    color:#C79816 ;
+}
+.fa-twitter {
+    font-size: 20px;
+    color:#C79816 ; 
+}
+.fa-pinterest {
+    font-size: 20px;
+    color:#C79816 ; 
+}
+.fa-youtube {
+    font-size: 20px;
+    color:#C79816
+}
+/* HTML New Page Menu */
+.main-background {
+    background-image: url(../images/bgp.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+/* first-conteiner-section */
+.first-conteiner-section {
+    max-width:1300px ;
+    width: 98%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+.left-wraper {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.left-div-box {
+    max-width: 600x;
+    width: 98%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #242424;
+    opacity: 90%;
+    animation:backInLeft 2s  linear;
+    margin-bottom: 20px;
+}
+.box-text {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'BPG Nino Mkhedruli Bold';
+}
+.box-text h2 {
+    font-size: 35px;
+    font-weight: 900;
+    color: #C79816;
+    margin-bottom: 10px;
+    font-family: 'BPG Irubaqidze';
+}
+.box-text p {
+    font-size: 14px;
+    color:#E83A30;
+}
+.pepperoni {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
+.pepperoni img {
+    width: 98%;
+}
+/* right-wraper */
+.right-wraper {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.right-div-box {
+    max-width: 600px;
+    width: 98%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #242424;
+    opacity: 90%;
+    animation:backInLeft 2s  linear;
+    margin-bottom: 20px;
+}
+/* second-conteiner-section */ 
+.second-conteiner-section {
+    max-width:1300px ;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #242424;
+    opacity: 90%;
+    margin-bottom: 80px;
+}
+.second-conteiner-section h2 {
+    font-size: 50px;
+    text-align: center;
+    color: #C79816;
+    font-family: 'BPG Irubaqidze';
+}
+.second-div-text {
+    max-width: 1200px;
+    width: 98%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.second-section-div {
+    max-width: 320px;
+    width: 98%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #242424;
+    opacity: 90%;
+    border: 1px solid;
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+.second-section-div h3 {
+    font-size: 35px;
+    font-weight: 900;
+    color: #C79816;
+    margin-bottom: 7px;
+    text-align: center;
+    font-family: 'BPG Irubaqidze';
+}
+.second-section-div h4 {
+    font-size: 25px;
+    color:lightyellow;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+/* New HTML Page Special Offers */
+.main-conteiner1 {
+    background-image: url(../images/kajetan-sumila-e8ULlZbWu0I-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.main-offers-div {
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #242424;
+    opacity: 90%;
+    padding-top: 10px;
+    margin-bottom: 59px;
+}
+.offers-box {
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    animation:fadeInDown 1.4s linear;
+    padding: 10px 0;
+}
+.offers-box p {
+    font-size: 30px;
+    color: #C79816;
+    font-family: 'BPG Irubaqidze';
+    border: 1px solid;
+    padding:10px;
+}
+.offers-box span {
+    font-size: 50px;
+    font-weight: 900;
+    color:#E83A30;
+    font-style: italic;
+}
+/* NEW HTML Page Contact */
+.main-background1 {
+    background-image: url(../images/jon-tyson-Gp1bS0WTw3w-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.contact-section {
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #242424;
+    opacity: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.left-block-contact {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+            animation:backInDown 2s linear;
+}
+.flex-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.flex-form label {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    color: #E8B730;
+    font-family: 'Work Sans';
+}
+.flex-form input {
+    max-width: 575px;
+    width: 100%;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid #000000 ;
+    background-color: lightyellow;
+    margin-bottom: 21px;
+}
+.flex-form-message {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.flex-form-message label {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    color: #E8B730;
+    font-family: 'Work Sans';
+}
+.flex-form-message input {
+    max-width: 575px;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #000000 ;
+    background-color: lightyellow;
+    margin-bottom: 21px;
+}
+.textarea {
+    max-width:575px;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #000000 ;
+    margin-bottom: 21px;
+    background-color:lightyellow;
+    resize: none;
+}
+.form-button  {
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+    border: 1px solid red;
+    background-color: red;
+}
+/* right-block-contact */
+.right-block-contact {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation:backInUp 2s linear;
+}
+.right-block-contact li {
+    margin-bottom: 10px;
+}
+.right-block-contact h3 {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #C79816;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.span-color {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    text-align: center;
+    color: lightyellow;
+}
+.span-color a {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #C79816;
+    text-align: center;
+}
+/* map-section */
+.map-section {
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+iframe {
+    width: 100%;
+}
+
+/* Hover Effects */
+li a:hover {
+    font-size: 25px;
+    color: red;
+}
+.fa-facebook-f:hover {
+    color: #4030E8;
+    cursor: pointer;
+}
+.fa-instagram:hover {
+   color: #EE66AA;
+   cursor: pointer;
+}
+.fa-twitter:hover {
+    color: #16A9C7;
+    cursor: pointer;
+}
+.fa-pinterest:hover {
+    color: #E83A30;
+    cursor: pointer;
+}
+.fa-youtube:hover {
+    color:#E83A30;
+    cursor: pointer;
+}
+.form-button:hover {
+    background-color: #E8B730;
+}
